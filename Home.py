@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 import pathlib
+import os
 
 st.set_page_config(layout="wide")
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image('images/photo2.jpg')
+    st.image(os.path.join(os.getcwd(),'images','photo2.JPG'))
 
 with col2:
     st.title("Sanjay Dangwal")
