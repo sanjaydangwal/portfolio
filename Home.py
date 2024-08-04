@@ -3,8 +3,7 @@ import pandas as pd
 import pathlib
 import os
 
-st.set_page_config(layout="wide")
-
+st.set_page_config(layout="wide", page_title="Sanjay Dangwal")
 col1, col2 = st.columns(2)
 
 with col1:
